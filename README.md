@@ -1,4 +1,4 @@
-# testingsanctumclient
+# streamer
 
 ## Project setup
 ```
