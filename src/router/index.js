@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/HomeView.vue'
 import SignIn from '../views/SignIn.vue'
 import LoggedIn from '../views/LoggedInView.vue'
-
+import Book from '../views/Book.vue'
 
 
 
@@ -34,6 +34,11 @@ const routes = [
       requiresAuth: true
     }
   },
+  {
+    path: "/book/:id",
+    component: Book,
+    name: "book"
+},
  
 ]
 
