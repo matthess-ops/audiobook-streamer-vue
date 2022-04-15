@@ -4,6 +4,7 @@ import Home from '../views/HomeView.vue'
 import SignIn from '../views/SignIn.vue'
 import LoggedIn from '../views/LoggedInView.vue'
 import Book from '../views/Book.vue'
+import Player from '../views/Player.vue'
 
 
 
@@ -38,6 +39,11 @@ const routes = [
     path: "/book/:id",
     component: Book,
     name: "book"
+},
+{
+  path: "/player/:id",
+  component: Player,
+  name: "player"
 },
  
 ]
